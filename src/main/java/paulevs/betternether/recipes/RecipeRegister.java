@@ -21,7 +21,7 @@ public class RecipeRegister
 	{
 		if (material != null && result != null)
 		{
-			FurnaceRecipes.instance().addSmelting(Item.getItemFromBlock(material), new ItemStack(result, amount), 0);
+			FurnaceRecipes.instance().addSmelting(Item.getItemFromBlock(material), new ItemStack(result, amount), 0.5F);
 		}
 	}
 	
